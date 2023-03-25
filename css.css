@@ -1,0 +1,65 @@
+*{font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    } 
+
+body {
+  height: 100vw ;
+  height: 50vh;
+  background-image: url("imagens/unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+    header {
+      
+        height: 8vh; 
+        background: rgb(0, 0, 0);
+        color: white;
+        top: 0;  
+
+        display:flex;
+        justify-content: space-between;  
+        align-items: center;
+    }
+
+    header div > {
+      transform: translateY(px);
+    }
+    
+    header div {
+        font-size: 2em;  
+        padding: 1em;
+      }
+      header nav {
+        display:flex;
+        justify-content: flex-end;  
+      }
+    
+      nav a {
+        padding: 20px;
+        text-decoration: none;
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+      }
+    
+      a:hover {
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(255, 255, 255);
+        transform: scale(0.9);
+        box-shadow: 2px 2x 5px gray;
+        text-shadow: 4px 4px 10px gray;
+        transition: all 0.6s ease-in-out;
+      }
+
+      header div {
+        align-items: center;
+      }
+    
+
+    
+    
+      
+    
